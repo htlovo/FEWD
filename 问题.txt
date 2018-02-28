@@ -43,3 +43,9 @@ li的width替换为min-width和max-width后，高度仍然不同：
 第十一章
 
 挑战
+
+第十四章
+
+.then(function () {
+  this.removeRow(email);
+}.bind(this));
