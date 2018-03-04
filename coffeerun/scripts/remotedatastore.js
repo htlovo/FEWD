@@ -22,7 +22,7 @@
 				console.log(serverResponse);
 				cb(serverResponse);
 			}
-		})
+		});
 	};
 
 	RemoteDataStore.prototype.get = function(key, cb) {
@@ -31,7 +31,7 @@
 				console.log(serverResponse);
 				cb(serverResponse);
 			}
-		})
+		});
 	};
 
 	RemoteDataStore.prototype.remove = function(key) {

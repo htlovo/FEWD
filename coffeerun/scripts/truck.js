@@ -26,7 +26,7 @@
 					}
 				}.bind(this));
 			}.bind(this));
-	}
+	};
 
 	App.Truck = Truck;
 	window.App = App;

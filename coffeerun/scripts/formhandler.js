@@ -42,7 +42,7 @@
 				message = emailAddress + ' is not an suthorized email address!';
 				event.target.setCustomValidity(message);
 			}
-		})
+		});
 	};
 
 	App.FormHandler = FormHandler;
